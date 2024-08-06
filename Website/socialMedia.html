@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>socialMedia</title>
+    <link rel="stylesheet" href="socialMedia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="logo">RsaDsG</h2>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="search for creators,inspiration and projects">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-photo">
+                    <img src="images/ritik.jpg">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-------------Main menu----------------->
+    <main>
+        <div class="container">
+            <!--====================left=========-->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="images/ritik.jpg">
+                    </div>
+                    <div class="handle">
+                        <h4>Ritik Kumar</h4>
+                        <p class="text-muted">
+                            @_ritik_.kumar_
+                        </p>
+                    </div>
+                </a>
+                <!----------------------side-Bar------------------>
+                <div class="sideBar">
+                    <a class="menu-item active">
+                        <span><i class="fa-solid fa-house "></i></span>
+                        <h3>Home</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa-regular fa-compass "></i></span>
+                        <h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="Notifications">
+                        <span><i class="fa-regular fa-bell "><small class="noti-count">3+</small></i></span>
+                        <h3>Notifications</h3>
+                        <div class="noti-Popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images/sahdevsingle.jpg">
+                                </div>
+                                <div class="noti-body">
+                                    <b>Sahdev Puran</b> accepted your friend request
+                                    <small class="text-muted">2 days ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images/dolly.JPG">
+                                </div>
+                                <div class="noti-body">
+                                    <b>Dolly Rani </b> accepted your friend request
+                                    <small class="text-muted">3 days ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images/sohailDP.jpg">
+                                </div>
+                                <div class="noti-body">
+                                    <b>Sohail Akhtar</b> accepted your friend request
+                                    <small class="text-muted">2 days ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="images/mousami.jpg">
+                                </div>
+                                <div class="noti-body">
+                                    <b>Mousumi Majhi</b> accepted your friend request
+                                    <small class="text-muted">7 days ago</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </a>
+                    <a class="menu-item" id="Messages-Notifications">
+                        <span><i class="fa-regular fa-envelope "><small class="noti-count">4+</small></i></span>
+                        <h3>Messages</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa-regular fa-bookmark "></i></span>
+                        <h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa-solid fa-chart-line "></i></span>
+                        <h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item" id="theme">
+                        <span><i class="fa-solid fa-palette "></i></span>
+                        <h3>Theme</h3>
+                    </a>
+                    <a class="menu-item active">
+                        <span><i class="fa-solid fa-gear "></i></span>
+                        <h3>Setting</h3>
+                    </a>
+                </div>
+                <!---------------end of sidebar--------------------->
+                <label for="create-post" class="btn btn-primary">Create Post</label>
+            </div>
+            <!--========middle===============-->
+            <div class="middle">
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/ritik.jpg" >
+                        </div>
+                        <p class="name">your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/dolly.JPG">
+                        </div>
+                        <p class="name">Dolly Rani</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/sahdevstory.jpg">
+                        </div>
+                        <p class="name">Sahdev Puran</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/sohailDP.jpg">
+                        </div>
+                        <p class="name">Sohail Akhtar</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/om.jpg">
+                        </div>
+                        <p class="name">Om kumar Pandit</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/ansuDP.jpg">
+                        </div>
+                        <p class="name">Ansumitra Prusty</p>
+                    </div>
+                </div>
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="images/ritik.jpg">
+                    </div>
+                    <input type="text" placeholder="What's on your mind, diama ?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+
+                <!---------------------------FEEDS--------------------------------->
+                <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/debasis.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Debasis Hasdah</h3>
+                                    <small>CUTM , Bhubaneswar ,15 hours Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/group3.jpg">
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span class="red-heart"><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="linked-by">
+                            <span><img src="images/dolly.JPG"></span>
+                            <span><img src="images/sahdevsingle.jpg"></span>
+                            <span><img src="images/sohailsingle.jpg"></span>
+                            <p>Liked by <b>Dolly rani</b>and <b>2,524 other</b></p>
+                        </div>
+                        <div class="captian">
+                            <p><b>Debasis Hasdah</b> 
+                            <span class="harsh-tag">#lifestye #groupPhoto #chillingwithFriends</span></p>
+                        </div>
+                        <div class="text-muted">View all 277 Comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/sahdevsingle.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Sahdev Puran</h3>
+                                    <small>CUTM,Bhubaneswar,10 day Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/group1.jpg">
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span class="red-heart"><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="linked-by">
+                            <span><img src="images/dolly.JPG"></span>
+                            <span><img src="images/geminiDP.jpg"></span>
+                            <span><img src="images/ansuDP.jpg"></span>
+                            <p>Liked by <b>Dolly Rani </b>and <b>2,6544 other</b></p>
+                        </div>
+                        <div class="captian">
+                            <p><b>Sahdev Puran</b> 
+                            <span class="harsh-tag">#lifestye #groupPhoto #chillingwithFriends</span></p>
+                        </div>
+                        <div class="text-muted">View all 27 Comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/om.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Om Kumar Pandit</h3>
+                                    <small>CUTM,Bhubaneswar,1 Month Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/omgroup.jpg">
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span class="red-heart"><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="linked-by">
+                            <span><img src="images/sohailDP.jpg"></span>
+                            <span><img src="images/om.jpg"></span>
+                            <span><img src="images/sohailDP.jpg"></span>
+                            <p>Liked by <b>Sohail Akhtar </b>and <b>2,844 other</b></p>
+                        </div>
+                        <div class="captian">
+                            <p><b>Om Kumar Pandit</b> 
+                            <span class="harsh-tag">#lifestye #groupPhoto #chillingwithFriends</span></p>
+                        </div>
+                        <div class="text-muted">View all 277 Comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/pavanDp.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Pavan Kumar</h3>
+                                    <small>CUTM,Bhubaneswar,1 Year Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/cutmbulding.jpg">
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span class="red-heart"><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="linked-by">
+                            <span><img src="images/om.jpg"></span>
+                            <span><img src="images/geminiDP.jpg"></span>
+                            <span><img src="images/sohailDP.jpg"></span>
+                            <p>Liked by <b>om KUmar Pandit </b>and <b>2,844 other</b></p>
+                        </div>
+                        <div class="captian">
+                            <p><b>Pavan Kumar</b> 
+                            <span class="harsh-tag">#lifestye #university</span></p>
+                        </div>
+                        <div class="text-muted">View all 200 Comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/ansu2Dp.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Ansumitra Prusty</h3>
+                                    <small>CUTM,Bhubaneswar,1 Months Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/ansu2Group.jpg">
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span class="red-heart"><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="linked-by">
+                            <span><img src="images/dolly.JPG"></span>
+                            <span><img src="images/geminiDP.jpg"></span>
+                            <span><img src="images/sohailDP.jpg"></span>
+                            <p>Liked by <b>Dolly Rani </b>and <b>2,9474 other</b></p>
+                        </div>
+                        <div class="captian">
+                            <p><b>Abhishek Kumar</b> 
+                            <span class="harsh-tag">#lifestye </span></p>
+                        </div>
+                        <div class="text-muted">View all 200 Comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/abhi.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Abhishek Kumar</h3>
+                                    <small>CUTM,Bhubaneswar,3 Months Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/group4.jpg">
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span class="red-heart"><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="linked-by">
+                            <span><img src="images/debasis.jpg"></span>
+                            <span><img src="images/geminiDP.jpg"></span>
+                            <span><img src="images/sohailDP.jpg"></span>
+                            <p>Liked by <b>Debasis Hasdah </b>and <b>2,844 other</b></p>
+                        </div>
+                        <div class="captian">
+                            <p><b>Abhishek Kumar</b> 
+                            <span class="harsh-tag">#lifestye </span></p>
+                        </div>
+                        <div class="text-muted">View all 200 Comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/sohailDP.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Sohail Akhtar</h3>
+                                    <small>CUTM,Bhubaneswar,1 day Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/sohailgroup.jpg">
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span class="red-heart"><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="linked-by">
+                            <span><img src="images/mousami.jpg"></span>
+                            <span><img src="images/sahdevsingle.jpg"></span>
+                            <span><img src="images/debasis.jpg"></span>
+                            <p>Liked by <b>mousami Majhi </b>and <b>2,844 other</b></p>
+                        </div>
+                        <div class="captian">
+                            <p><b>Sohail Akhtar</b> 
+                            <span class="harsh-tag">#lifestye #Friendship #Bonding </span></p>
+                        </div>
+                        <div class="text-muted">View all 200 Comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/gemini2DP.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Gemini Mohan Nag</h3>
+                                    <small>CUTM,Bhubaneswar,3 Months Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/gemgroup2.jpg">
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span class="red-heart"><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="linked-by">
+                            <span><img src="images/sahdevsingle.jpg"></span>
+                            <span><img src="images/geminiDP.jpg"></span>
+                            <span><img src="images/sohailDP.jpg"></span>
+                            <p>Liked by <b>Sahdev Puran </b>and <b>8,844 other</b></p>
+                        </div>
+                        <div class="captian">
+                            <p><b>Gemini Mohan Nag</b> 
+                            <span class="harsh-tag">#lifestye #FriendShip</span></p>
+                        </div>
+                        <div class="text-muted">View all 900 Comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/dolly.JPG">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Dolly Rani</h3>
+                                    <small>Bokaro Steel City, Jharkhand,1 Year Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/dollypost.JPG">
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span class="red-heart"><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="linked-by">
+                            <span><img src="images/sahdevsingle.jpg"></span>
+                            <span><img src="images/geminiDP.jpg"></span>
+                            <span><img src="images/sohailDP.jpg"></span>
+                            <p>Liked by <b>Sahdev Puran </b>and <b>10,844 other</b></p>
+                        </div>
+                        <div class="captian">
+                            <p><b>Dolly Rani</b> 
+                            <span class="harsh-tag">#Sisterhood #BrotherHood #FriendShip</span></p>
+                        </div>
+                        <div class="text-muted">View all 900 Comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/moonDp.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Bhumika Puran</h3>
+                                    <small>Tatanagar Jamsahpur, Jharkhand,1 Year Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/bhumika.jpg">
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span class="red-heart"><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="linked-by">
+                            <span><img src="images/sahdevsingle.jpg"></span>
+                            <span><img src="images/geminiDP.jpg"></span>
+                            <span><img src="images/sohailDP.jpg"></span>
+                            <p>Liked by <b>Sahdev Puran </b>and <b>10,844 other</b></p>
+                        </div>
+                        <div class="captian">
+                            <p><b>Bhumika Puran</b> 
+                            <span class="harsh-tag">#Sisterhood #BrotherHood #FriendShip</span></p>
+                        </div>
+                        <div class="text-muted">View all 900 Comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="images/gemini2DP.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Gemini Mohan Nag</h3>
+                                    <small>CUTM,Bhubaneswar,3 Months Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="images/gemgroup2.jpg">
+                        </div>
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span class="red-heart"><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment-dots"></i></span>
+                                <span><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="linked-by">
+                            <span><img src="images/sahdevsingle.jpg"></span>
+                            <span><img src="images/geminiDP.jpg"></span>
+                            <span><img src="images/sohailDP.jpg"></span>
+                            <p>Liked by <b>Sahdev Puran </b>and <b>8,844 other</b></p>
+                        </div>
+                        <div class="captian">
+                            <p><b>Gemini Mohan Nag</b> 
+                            <span class="harsh-tag">#lifestye #FriendShip</span></p>
+                        </div>
+                        <div class="text-muted">View all 900 Comments</div>
+                    </div>
+                </div>
+            </div>
+                <!--=============right============-->
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4><i class="fa-regular fa-pen-to-square"></i>
+                    </div>
+                    <!-------------------------Search Bar-------------->
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" placeholder="Search message" id="messages-search">
+                    </div>
+                    <!-------------------Message Category-------------------->
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6 >General</h6>
+                        <h6 class="message-request">Request(5)</h6>
+                    </div>
+                    <!-----------------------Message------------------------------------>
+                    <div class="message">
+                        <div class="profile-photo">
+                          <img src="images/sahdevstory.jpg" height="50px" width="50px">
+                        </div> 
+                        <div class="message-body">
+                          <h5>Sahdev Puran</h5>
+                          <p class="text-muted">Just do it bruh</p>
+                        </div>
+                      </div>
+                      <div class="message">
+                        <div class="profile-photo">
+                          <img src="images/sonuDp.jpg">
+                        </div> 
+                        <div class="message-body">
+                          <h5>Sonu Kumar</h5>
+                          <p class="text-muted">Just do it bruh</p>
+                        </div>
+                      </div>
+                    <div class="message">
+                      <div class="profile-photo">
+                        <img src="images/dolly.JPG" height="50px" width="50px">
+                        <div class="active"></div>
+                      </div> 
+                      <div class="message-body">
+                        <h5>Dolly Rani</h5>
+                        <p class="text-bold">2 new messages</p>
+                      </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                          <img src="images/ansu2Dp.jpg" height="50px" width="50px">
+                          <div class="active"></div>
+                        </div> 
+                        <div class="message-body">
+                          <h5>Ansumitra Prusty</h5>
+                          <p class="text-muted">Just do it</p>
+                        </div>
+                      </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                          <img src="images/mousami.jpg">
+                        </div> 
+                        <div class="message-body">
+                          <h5>Mousumi Majhi</h5>
+                          <p class="text-bold">2 new messages</p>
+                        </div>
+                      </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                          <img src="images/om.jpg">
+                          <div class="active"></div>
+                        </div> 
+                        <div class="message-body">
+                          <h5>Om Kumar Pandit</h5>
+                          <p class="text-muted">Received, thanks!</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                          <img src="images/sohailDP.jpg">
+                          <div class="active"></div>
+                        </div> 
+                        <div class="message-body">
+                          <h5>Sohail Akhtar</h5>
+                          <p class="text-muted">Received, thanks!</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!----------------------End of messages------------------------------------>
+                
+                <!----------------------Friend requests------------------------------------>
+                <div class="friend-request">
+                    <h4>Request</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/anup.jpg">
+                            </div>
+                            <div>
+                                <h5>Anup</h5>
+                                <p class="text-muted">
+                                    105 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/geminiDP.jpg" name="gemini" alt="">
+                            </div>
+                            <div>
+                                <h5>Gemini Mohan Nag</h5>
+                                <p class="text-muted">
+                                    90 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/ansuDP.jpg">
+                            </div>
+                            <div>
+                                <h5>Ansumitra Prusty</h5>
+                                <p class="text-muted">
+                                    95 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/rahul.jpg">
+                            </div>
+                            <div>
+                                <h5>Rahul Mahto</h5>
+                                <p class="text-muted">
+                                    51 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/pavanDp.jpg">
+                            </div>
+                            <div>
+                                <h5>Pavan Kumar</h5>
+                                <p class="text-muted">
+                                    60 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/debasis.jpg">
+                            </div>
+                            <div>
+                                <h5>Debasis Hasdah</h5>
+                                <p class="text-muted">
+                                    94 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/joydeep.jpg">
+                            </div>
+                            <div>
+                                <h5>Joydeep Maji</h5>
+                                <p class="text-muted">
+                                    84 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/gudu.jpg">
+                            </div>
+                            <div>
+                                <h5>Gudu Babu</h5>
+                                <p class="text-muted">
+                                    110 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/ananya.jpg">
+                            </div>
+                            <div>
+                                <h5>Ananya Panday</h5>
+                                <p class="text-muted">
+                                    77 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/joseph.jpg">
+                            </div>
+                            <div>
+                                <h5>Joseph Tudu</h5>
+                                <p class="text-muted">
+                                    115 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/surya.jpg">
+                            </div>
+                            <div>
+                                <h5>SuryaKant</h5>
+                                <p class="text-muted">
+                                    38 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/smruti.jpg">
+                            </div>
+                            <div>
+                                <h5>Smruti</h5>
+                                <p class="text-muted">
+                                    55 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="images/Jd.jpg">
+                            </div>
+                            <div>
+                                <h5>JD</h5>
+                                <p class="text-muted">
+                                    85 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---------------------------End of Right Side-------------------------------->
+        </div>
+    </main>
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customize your views</h2>
+            <p class="text-muted">Manage your font size,color and background.</p>
+            <!---------------fonts Sizes------------------->
+            <div class="font-size">
+                <h4>Font SSize</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2 active"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+            <!--------------------Primary Color---------------------------------->
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+            <!---------------------Background Colors--------------------------->
+            <div class="background">
+                <h4>Background</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5 for="bg-2">Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Light-out</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="socialMedia.js"></script>
+</body>
+
+</html>
